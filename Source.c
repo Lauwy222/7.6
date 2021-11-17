@@ -5,7 +5,7 @@
 int main(void) {
 	char scanned[60];
 
-	printf("Geef een woord: ");
+	printf("Word to reverse: ");
 	scanf("%s", &scanned);
 	int length = strlen(scanned);
 
@@ -20,6 +20,7 @@ int main(void) {
 		int last = length - i - 1;
 		printf("%c", *(normal + last));
 	}
+	
 	
 	return 0;
 }
