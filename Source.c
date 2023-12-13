@@ -20,7 +20,5 @@ int main(void) {
 		int last = length - i - 1;
 		printf("%c", *(normal + last));
 	}
-	
-	
 	return 0;
 }
